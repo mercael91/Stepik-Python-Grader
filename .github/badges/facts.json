@@ -3,7 +3,7 @@
   "schema_of": "формат ЭТОГО файла — факты проекта для соседних (generate_facts.py). Не версия проекта, не его выпуск и не чужая схема: в этой экосистеме их уже четыре (выгрузка правил, ответ потребителя, сводка, факты), ключ у всех один, предметы разные — правило 164",
   "_": "Факты этого проекта для соседних. schema — версия ФОРМАТА файла, не версия проекта и не его выпуск. Ключа нет — значит не измеряли: нулём отсутствие не обозначается.",
   "repo": "ArtVsMark/Stepik-Python-Grader",
-  "generated_at": "2026-10-08T09:30:44+00:00",
+  "generated_at": "2026-10-09T09:35:58+00:00",
   "tests": {
     "functions": 5526,
     "modules": 277
@@ -27,28 +27,19 @@
   "ci": {
     "workflow": "ci.yml"
   },
-  "release": "1.10 ≠ pypi 1.11",
+  "release": "1.10 ≠ pypi 1.12",
   "version": "1.10.436",
   "checks_per_pr": {
-    "count": 17,
+    "count": 8,
     "names": [
       "docs-guardrails",
       "e2e",
       "sandbox-linux",
       "static",
       "supply-chain",
-      "test (macos-latest, 3.12, false)",
-      "test (macos-latest, 3.13, false)",
-      "test (macos-latest, 3.14, false)",
-      "test (macos-latest, 3.15, true)",
-      "test (ubuntu-latest, 3.12, false)",
-      "test (ubuntu-latest, 3.13, false)",
-      "test (ubuntu-latest, 3.14, false)",
-      "test (ubuntu-latest, 3.15, true)",
-      "test (windows-latest, 3.12, false)",
-      "test (windows-latest, 3.13, false)",
-      "test (windows-latest, 3.14, false)",
-      "test (windows-latest, 3.15, true)"
+      "test (macos-latest, 3.14)",
+      "test (ubuntu-26.04, 3.14)",
+      "test (windows-latest, 3.14)"
     ]
   },
   "rules": {
